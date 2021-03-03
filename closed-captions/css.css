@@ -1,21 +1,28 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
 body {
-    background: black;
+    background-color: black;
 }
 
+/
+
+/* https://css-tricks.com/fluid-width-video/ */
 .videoflex {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
+#video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 #closed-captions p {
     opacity: 0;
@@ -33,12 +40,20 @@ body {
 }
 
 
-.pflex {
+#closed-captions {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    top: 0;
     display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem;
     margin: 0 auto;
-    width: 70rem;
-    align-content: center;
 }
+
 
 p {
     color: white;
@@ -47,45 +62,69 @@ p {
 /* Radio man rustig */
 .voice1rustig {
     font-family: "Brenner Mono Regular";
-    float: left;
+    padding-left: 15%;
+    font-size: 1.3rem;
+    width: 15rem;
+    
 }
 
 /* Officer KD6 rustig */
 .voice2rustig {
-    font-family: "Brenner Sans Regular";
-    float: right;
+    font-family: "Brenner Sans Medium";
+    padding-left: 80%;
+    font-size: 1.3rem;
+    text-align: right;
+    width: 16rem;
 }
-
-/* Radio man rustig */
-.voice1cells {
-    font-family: "Brenner Mono Medium";
-}
-
-/* Officer KD6 rustig */
-.voice2cells {
-    font-family: "Brenner Sans Condensed Medium";
-}
-
-
 
 /* Radio man opdringerig*/
 .voice1 {
-    font-family: "Brenner Mono Medium Italic";
+    font-family: "Brenner Mono Bold Italic";
+    padding-left: 15%;
+    font-size: 1.3rem;
+    width: 18rem;
 }
 
 /* Officer KD6 opdringerig */
 .voice2 {
-    font-family: "Brenner Sans Condensed Medium";
+    font-family: "Brenner Sans Bold";
+    padding-left: 80%;
+    font-size: 1.3rem;
+    text-align: right;
+    width: 18rem;
+}
+
+.voice1cells {
+    font-family: "Brenner Mono Bold";
+    padding-left: 15%;
+    font-size: 2rem;
+    width: 10rem;
+}
+
+.voice2cells {
+    font-family: "Brenner Sans Bold";
+    padding-left: 80%;
+    font-size: 2rem;
+    text-align: right;
+    width: 16rem;
 }
 
 /* Man in gang */
 .voice3 {
     font-family: "Brenner Sans Condensed MePbYqy";
+    padding-top: 30%;
+    padding-left: 45%;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 16rem;
 }
 
 /* Radio man einde */
 .voice4 {
     font-family: "Brenner Mono Regular";
+    padding-left: 15%;
+    font-size: 1.3rem;
+    width: 15rem;
 }
 
 /* **********************************************
@@ -162,12 +201,26 @@ You probably want to change the styling.
 
 .p0.on span:nth-of-type(10) {
     opacity: 1;
-    transition: 0s 3.2s;
+    transition: 0s 3s;
 }
 
 .p0.on span:nth-of-type(11) {
     opacity: 1;
     transition: 0s 3.7s;
+}
+
+.p1 span {
+    opacity: 0;
+}
+
+.p1.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+}
+
+.p1.on span:last-of-type {
+    opacity: 1;
+    transition: 0s 0.3s;
 }
 
 /* **********************************************
