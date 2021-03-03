@@ -64,17 +64,17 @@ p {
     font-family: "Brenner Mono Regular";
     padding-left: 15%;
     font-size: 1.3rem;
-    width: 15rem;
+    width: 20rem;
     
 }
 
 /* Officer KD6 rustig */
 .voice2rustig {
     font-family: "Brenner Sans Medium";
-    padding-left: 80%;
+    padding-left: 75%;
     font-size: 1.3rem;
     text-align: right;
-    width: 16rem;
+    width: 16.5rem;
 }
 
 /* Radio man opdringerig*/
@@ -88,7 +88,7 @@ p {
 /* Officer KD6 opdringerig */
 .voice2 {
     font-family: "Brenner Sans Bold";
-    padding-left: 80%;
+    padding-left: 75%;
     font-size: 1.3rem;
     text-align: right;
     width: 18rem;
@@ -97,13 +97,14 @@ p {
 .voice1cells {
     font-family: "Brenner Mono Bold";
     padding-left: 15%;
+    padding-top: 10%;
     font-size: 2rem;
     width: 10rem;
 }
 
 .voice2cells {
     font-family: "Brenner Sans Bold";
-    padding-left: 80%;
+    padding-left: 75%;
     font-size: 2rem;
     text-align: right;
     width: 16rem;
@@ -114,7 +115,7 @@ p {
     font-family: "Brenner Sans Condensed MePbYqy";
     padding-top: 30%;
     padding-left: 45%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 16rem;
 }
@@ -222,6 +223,166 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 0.3s;
 }
+
+
+
+
+
+.p4 span {
+    opacity: 0;
+}
+
+.p4.on span:first-of-type {
+    opacity: 1;
+}
+
+.p4.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p4.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p4.on span:nth-of-type(4) {
+    opacity: 1;
+}
+
+.p4.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s 1.2s;
+
+}
+
+.p4.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s 1.2s;
+
+}
+
+.p4.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p5 span {
+    opacity: 0;
+}
+
+.p5.on span:first-of-type {
+    opacity: 1;
+}
+
+.p5.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p5.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p5.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s 1.5s;
+}
+
+.p5.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s 1.5s;
+
+}
+
+.p5.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s 1.5s;
+
+}
+
+.p5.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* interlinked within cells */
+#closed-captions p:nth-of-type(6) {
+    padding-top: 8%;
+}
+
+/* and dreadfull distinct against the dark, a tall white fountain played... */
+#closed-captions p:nth-of-type(8) {
+    width: 22rem;
+}
+
+
+/* cells */
+#closed-captions p:nth-of-type(9) {
+    padding-top: 0%;
+}
+
+/* have you ever been in a institution */
+#closed-captions p:nth-of-type(11) {
+    padding-top: 0%;
+}
+/* cells */
+#closed-captions p:nth-of-type(12) {
+    padding-top: 8%;
+}
+
+/* do they keep you in a cell */
+#closed-captions p:nth-of-type(14) {
+    padding-top: 0%;
+}
+/* cells */
+#closed-captions p:nth-of-type(15) {
+    padding-top: 8%;
+}
+
+/* do they keep you in a little box */
+#closed-captions p:nth-of-type(17) {
+    padding-top: 0%;
+}
+/* whats it's like to hold the hand of someone you love */
+#closed-captions p:nth-of-type(18) {
+    padding-top: 12%;
+}
+
+/* interlinked */
+#closed-captions p:nth-of-type(20) {
+    padding-top: 0%;
+}
+
+/* Within cells interliked */
+#closed-captions p:nth-of-type(39) {
+    padding-top: 0%;
+}
+
+/* Within cells interliked */
+#closed-captions p:nth-of-type(42) {
+    top: 29%;
+}
+/* Within cells interliked */
+#closed-captions p:nth-of-type(43) {
+    top: 41%;
+}
+/* Within cells interliked */
+#closed-captions p:nth-of-type(44) {
+    top: 53%;
+}
+
 
 /* **********************************************
 Sounds.
