@@ -43,6 +43,7 @@ body {
 #closed-captions {
     position: absolute;
     z-index: 1;
+    pointer-events: none;
     width: 90%;
     height: 100%;
     top: 0;
@@ -228,6 +229,7 @@ You probably want to change the styling.
 
 
 
+
 .p4 span {
     opacity: 0;
 }
@@ -302,14 +304,6 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 1.5s;
 }
-
-
-
-
-
-
-
-
 
 
 
