@@ -705,17 +705,104 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
+/* low alarm */
 .geluid1 {
     position: absolute;
     opacity: 0;
-    color: red;
+    color: white;
+    padding-left: 34.5%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
 }
 
 .sound1 .geluid1{
-    opacity: 1;
+    opacity: 0.3;
 }
 
 .sound2 .geluid1{
     opacity: 0;
 }
 
+/* high alarm */
+.geluid2 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 34.5%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound3 .geluid2{
+    opacity: 0.3;
+}
+
+.sound4 .geluid2{
+    opacity: 0;
+}
+
+/* distorded alarm */
+.geluid3 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 26%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound5 .geluid3{
+    opacity: 0.3;
+}
+
+.sound6 .geluid3{
+    opacity: 0;
+}
+
+/* high alarm */
+.geluid4 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound7 .geluid4{
+    opacity: 0.3;
+}
+
+.sound8 .geluid4{
+    opacity: 0;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+	
+	70% {
+		transform: scale(1);
+	}
+	
+	100% {
+		transform: scale(0.95);
+	}
+}
