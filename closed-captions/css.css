@@ -137,6 +137,8 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
+/* officer kd6 */
 .p0 span {
     opacity: 0;
 }
@@ -211,6 +213,8 @@ You probably want to change the styling.
     transition: 0s 3.7s;
 }
 
+
+/* yes sir */
 .p1 span {
     opacity: 0;
 }
@@ -229,7 +233,7 @@ You probably want to change the styling.
 
 
 
-
+/* interlinked within one stem */
 .p4 span {
     opacity: 0;
 }
@@ -266,6 +270,7 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 1.2s;
 }
+
 
 .p5 span {
     opacity: 0;
@@ -377,6 +382,231 @@ You probably want to change the styling.
     top: 53%;
 }
 
+
+/* scene 2 */
+
+/* cells */
+#closed-captions p:nth-of-type(49) {
+    padding-top: 0%;
+}
+
+#closed-captions p:nth-of-type(56) {
+    padding-top: 0%;
+}
+
+#closed-captions p:nth-of-type(58) {
+    padding-top: 0%;
+}
+
+#closed-captions p:nth-of-type(60) {
+    padding-top: 0%;
+}
+
+/* dreadfully distinct */
+#closed-captions p:nth-of-type(66) {
+    padding-top: 0%;
+}
+
+/* dark */
+#closed-captions p:nth-of-type(68) {
+    padding-top: 0%;
+}
+
+/* within cells interlinked */
+#closed-captions p:nth-of-type(70) {
+    padding-top: 0%;
+}
+
+/* within one stem */
+#closed-captions p:nth-of-type(72) {
+    padding-top: 0%;
+}
+
+/* and dreadfully distinct */
+#closed-captions p:nth-of-type(74) {
+    padding-top: 0%;
+}
+
+/* against the dark */
+#closed-captions p:nth-of-type(76) {
+    padding-top: 0%;
+}
+
+/* a tall white fountain played */
+#closed-captions p:nth-of-type(78) {
+    padding-top: 0%;
+}
+
+
+
+/* have you ever been in a institution cells */
+.p50 span {
+    opacity: 0;
+}
+
+.p50.on span:first-of-type {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(4) {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(5) {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(6) {
+    opacity: 1;
+}
+
+.p50.on span:nth-of-type(7) {
+    opacity: 1;
+}
+
+.p50.on span:last-of-type {
+    opacity: 1;
+    transition: 0s 1.8s;
+}
+
+/* When you're not performing your duties, do they keep you in a little box? Cells. */
+.p52 span {
+    opacity: 0;
+}
+
+.p52.on span:first-of-type {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(4) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(5) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(6) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(7) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(8) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(9) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(10) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(11) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(12) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(13) {
+    opacity: 1;
+}
+
+.p52.on span:nth-of-type(14) {
+    opacity: 1;
+}
+
+.p52.on span:last-of-type {
+    opacity: 1;
+    transition: 0s 3s;
+}
+
+
+/* Interlinked. What’s it like to hold the hand of someone you love?*/
+.p54 span {
+    opacity: 0;
+}
+
+.p54.on span:first-of-type {
+    opacity: 1;
+}
+
+.p54.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(3) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(4) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(5) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(6) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(7) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(8) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p52.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(10) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(11) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
+
+.p54.on span:nth-of-type(12) {
+    opacity: 1;
+    transition: 0s 1.2s;
+}
 
 /* **********************************************
 Sounds.
