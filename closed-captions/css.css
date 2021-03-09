@@ -475,6 +475,7 @@ You probably want to change the styling.
 .p50.on span:last-of-type {
     opacity: 1;
     transition: 0s 1.8s;
+    font-family: "Brenner Mono Bold";
 }
 
 /* When you're not performing your duties, do they keep you in a little box? Cells. */
@@ -541,12 +542,14 @@ You probably want to change the styling.
 .p52.on span:last-of-type {
     opacity: 1;
     transition: 0s 3s;
+    font-family: "Brenner Mono Bold";
 }
 
 
 /* Interlinked. What’s it like to hold the hand of someone you love?*/
 .p54 span {
     opacity: 0;
+    font-family: "Brenner Mono Bold";
 }
 
 .p54.on span:first-of-type {
@@ -588,7 +591,7 @@ You probably want to change the styling.
     transition: 0s 1.2s;
 }
 
-.p52.on span:nth-of-type(9) {
+.p54.on span:nth-of-type(9) {
     opacity: 1;
     transition: 0s 1.2s;
 }
@@ -608,6 +611,92 @@ You probably want to change the styling.
     transition: 0s 1.2s;
 }
 
+/* What's it like to be filled with dread? Dreadfully */
+.p61 span {
+    opacity: 0;
+}
+
+.p61.on span:first-of-type {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(4) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(5) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(6) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(7) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(8) {
+    opacity: 1;
+}
+
+.p61.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s 1.8s;
+    font-family: "Brenner Mono Bold";
+}
+
+/* Do you like being separated from other people? Distinct */
+.p63 span {
+    opacity: 0;
+}
+
+.p63.on span:first-of-type {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(2) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(3) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(4) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(5) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(6) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(7) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(8) {
+    opacity: 1;
+}
+
+.p63.on span:nth-of-type(9) {
+    opacity: 1;
+    transition: 0s 1.8s;
+    font-family: "Brenner Mono Bold";
+}
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -616,15 +705,17 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-    /*    background: yellow;*/
+.geluid1 {
+    position: absolute;
+    opacity: 0;
+    color: red;
 }
 
-iframe {
-    /*    transition: 1s;*/
+.sound1 .geluid1{
+    opacity: 1;
 }
 
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-    /*    transform: rotate(1turn);*/
+.sound2 .geluid1{
+    opacity: 0;
 }
+
