@@ -793,6 +793,94 @@ Sounds.
     opacity: 0;
 }
 
+/* disorted alarm */
+.geluid5 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 26%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound9 .geluid5 {
+    opacity: 0.3;
+}
+
+.sound10 .geluid5 {
+    opacity: 0;
+}
+
+/* high alarm */
+.geluid6 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound11 .geluid6 {
+    opacity: 0.3;
+}
+
+.sound12 .geluid6 {
+    opacity: 0;
+}
+
+/* disorted alarm */
+.geluid7 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 26%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound13 .geluid7 {
+    opacity: 0.3;
+}
+
+.sound14 .geluid7 {
+    opacity: 0;
+}
+
+/* high alarm */
+.geluid8 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 6rem;
+    animation: pulse 3s infinite;
+    transition: .2s;
+}
+
+.sound15 .geluid8 {
+    opacity: 0.3;
+}
+
+.sound16 .geluid8 {
+    opacity: 0;
+}
+
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
