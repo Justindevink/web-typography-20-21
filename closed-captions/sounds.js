@@ -18,5 +18,6 @@ sounds = [
 	32,		//sound14 geluid7
 	32.1,	//sound15 geluid8
 	33,		//sound16 geluid8
-	86
+	33.1,	//sound17 geluid9
+	75,		//sound18 geluid9
 ];

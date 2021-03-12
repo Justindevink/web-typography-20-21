@@ -881,6 +881,30 @@ Sounds.
     opacity: 0;
 }
 
+/* high pitch */
+.geluid9 {
+    position: absolute;
+    opacity: 0;
+    color: white;
+    padding-left: 48%;
+    padding-top: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Brenner Sans Bold";
+    font-size: 2rem;
+    transition: 30s;
+    /* animation: stretch 30s infinite; */
+}
+
+.sound17 .geluid9 {
+    opacity: 1;
+}
+
+.sound18 .geluid9 {
+    opacity: 0;
+    transition: 1s;
+}
+
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
@@ -892,5 +916,15 @@ Sounds.
 	
 	100% {
 		transform: scale(0.95);
+	}
+}
+
+@keyframes stretch {
+	0% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(2);
 	}
 }
