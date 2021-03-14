@@ -42,7 +42,7 @@ body {
 
 #closed-captions {
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     pointer-events: none;
     width: 90%;
     height: 100%;
@@ -54,7 +54,6 @@ body {
     padding: 0rem;
     margin: 0 auto;
 }
-
 
 p {
     color: white;
@@ -710,21 +709,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 34.5%;
+    padding-left: 44.7%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
-    transition: .2s;
+    font-size: 3rem;
+    transition: .8s;
 }
 
 .sound1 .geluid1{
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound2 .geluid1{
     opacity: 0;
+    transition: .5s;
+}
+
+.sound1 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound2 #blinkbg2{
+    animation: none;
 }
 
 /* high alarm */
@@ -732,21 +740,31 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 34.5%;
+    padding-left: 44.2%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
-    transition: .2s;
+    font-size: 3rem;
+    transition: .5s;
 }
 
 .sound3 .geluid2{
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound4 .geluid2{
     opacity: 0;
+    transition: .5s;
+
+}
+
+.sound3 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound4 #blinkbg2{
+    animation: none;
 }
 
 /* distorded alarm */
@@ -754,21 +772,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 26%;
+    padding-left: 40%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound5 .geluid3{
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound6 .geluid3{
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound5 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound6 #blinkbg2{
+    animation: none;
 }
 
 /* high alarm */
@@ -776,21 +803,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 35%;
+    padding-left: 44.2%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound7 .geluid4{
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound8 .geluid4{
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound7 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound8 #blinkbg2{
+    animation: none;
 }
 
 /* disorted alarm */
@@ -798,21 +834,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 26%;
+    padding-left: 40%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound9 .geluid5 {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound10 .geluid5 {
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound9 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound10 #blinkbg2{
+    animation: none;
 }
 
 /* high alarm */
@@ -820,21 +865,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 35%;
+    padding-left: 42.2%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound11 .geluid6 {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound12 .geluid6 {
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound11 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound12 #blinkbg2{
+    animation: none;
 }
 
 /* disorted alarm */
@@ -842,21 +896,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 26%;
+    padding-left: 40%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound13 .geluid7 {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound14 .geluid7 {
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound13 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound14 #blinkbg2{
+    animation: none;
 }
 
 /* high alarm */
@@ -864,21 +927,30 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 35%;
+    padding-left: 42.2%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
-    font-size: 6rem;
-    animation: pulse 3s infinite;
+    font-size: 3rem;
     transition: .2s;
 }
 
 .sound15 .geluid8 {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .sound16 .geluid8 {
     opacity: 0;
+    transition: 0.5s;
+}
+
+.sound15 #blinkbg2{
+    animation: blink2 1s;
+}
+
+.sound16 #blinkbg2{
+    animation: none;
 }
 
 /* high pitch */
@@ -887,7 +959,7 @@ Sounds.
     opacity: 0;
     color: white;
     padding-left: 48%;
-    padding-top: 30%;
+    padding-top: 40%;
     margin: 0 auto;
     text-align: center;
     font-family: "Brenner Sans Bold";
@@ -927,4 +999,66 @@ Sounds.
 	100% {
 		transform: scaleX(2);
 	}
+}
+
+#blinkbg {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    background-color: white;
+    opacity: 0;
+}
+
+#blinkbg2 {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    background-color: black;
+    opacity: 0;
+}
+
+.sound17 #blinkbg {
+    animation: blink 43s;
+}
+
+.sound18 #blinkbg {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    95% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink2 {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
