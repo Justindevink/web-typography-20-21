@@ -1,11 +1,16 @@
 # Onderbouwing
 
 ## Fonts
+waarom welke fonts, typefaces en weights gebruikt.
+
+## Plaatsing
+Letters staan links en rechts omdat dit een intens gevoel geeft van een ondervraging, ook al vind Darice dit minder prettig te volgen. Ik heb er voor gekozen dit toch aan te houden omdat deze film maar 2x een intense ondervraging scene heeft, je hoeft dus niet de hele film lang de ondertiteling (intensief) links en rechts te lezen. 
+Tot slot is er meer ruimte voor de woorden "Cells" en "Interlinked" die in beeld komt terwijl de vraag in beeld blijft. Dit geeft meer het effect dat deze woorden echt intens in een ondervraging gesteld worden, alsof Officer KD6 nu meteen antwoord moet geven door het woord "Cells" of "Interlinked" te herhalen. 
 
 ## Kleurgebruik
 
 ## Geluidseffecten
-
+Letters worden steeds moeilijker leesbaar naar mate het witte vlak steeds aanweziger wordt, ik heb hier bewust voor gekozen omdat de hoge piep de stemmen ook moeilijker hoorbaar maken.
 
 
 
