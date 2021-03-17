@@ -395,6 +395,7 @@ You probably want to change the styling.
 
 #closed-captions p:nth-of-type(58) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 #closed-captions p:nth-of-type(60) {
@@ -414,26 +415,31 @@ You probably want to change the styling.
 /* within cells interlinked */
 #closed-captions p:nth-of-type(70) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 /* within one stem */
 #closed-captions p:nth-of-type(72) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 /* and dreadfully distinct */
 #closed-captions p:nth-of-type(74) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 /* against the dark */
 #closed-captions p:nth-of-type(76) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 /* a tall white fountain played */
 #closed-captions p:nth-of-type(78) {
     padding-top: 0%;
+    width: 20rem;
 }
 
 
@@ -719,7 +725,7 @@ Sounds.
 }
 
 .sound1 .geluid1{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound2 .geluid1{
@@ -750,7 +756,7 @@ Sounds.
 }
 
 .sound3 .geluid2{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound4 .geluid2{
@@ -782,7 +788,7 @@ Sounds.
 }
 
 .sound5 .geluid3{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound6 .geluid3{
@@ -813,7 +819,7 @@ Sounds.
 }
 
 .sound7 .geluid4{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound8 .geluid4{
@@ -844,7 +850,7 @@ Sounds.
 }
 
 .sound9 .geluid5 {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound10 .geluid5 {
@@ -875,7 +881,7 @@ Sounds.
 }
 
 .sound11 .geluid6 {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound12 .geluid6 {
@@ -906,7 +912,7 @@ Sounds.
 }
 
 .sound13 .geluid7 {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound14 .geluid7 {
@@ -937,7 +943,7 @@ Sounds.
 }
 
 .sound15 .geluid8 {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .sound16 .geluid8 {
@@ -981,7 +987,7 @@ Sounds.
     position: absolute;
     opacity: 0;
     color: white;
-    padding-left: 46%;
+    padding-left: 45.5%;
     padding-top: 35%;
     margin: 0 auto;
     text-align: center;
@@ -992,12 +998,133 @@ Sounds.
 
 .sound19 .geluid10 {
     opacity: 1;
-    animation: wave 43s;
+    animation: wave2 43s;
 }
 
 .sound20 .geluid10 {
     opacity: 0;
     transition: 1s;
+    animation: none;
+}
+
+#blinkbg {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    background-color: white;
+    opacity: 0;
+}
+
+#blinkbg2 {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    background-color: black;
+    opacity: 0;
+}
+
+.sound17 #blinkbg {
+    animation: blink 43s;
+}
+
+.sound18 #blinkbg {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.1;
+    }
+
+    80% {
+        opacity: 0.2;
+    }
+
+    90% {
+        opacity: 0.3;
+    }
+
+    95% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink2 {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* http://angrytools.com/gradient/ */
+#radial {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(82,84,255,0) 5%, rgba(255, 255, 255, 0.4) 100%);
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    opacity: 0;
+}
+
+.sound19 #radial {
+    opacity: 1;
+    animation: wave2 43s;
+}
+
+.sound20 #radial {
+    opacity: 0;
+    animation: none;
+}
+
+#radial2 {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(82,84,255,0) 40%, rgba(255, 255, 255, 0.6) 100%);
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1%;
+    display: flex;
+    opacity: 0;
+}
+
+.sound19 #radial2 {
+    opacity: 1;
+    animation: wave3 43s;
+}
+
+.sound20 #radial2 {
+    opacity: 0;
     animation: none;
 }
 
@@ -1123,50 +1250,48 @@ Sounds.
     }
 
     100% {
-        opacity: 0.3;
+        opacity: 0.5;
     }
 }
 
-#blinkbg {
-    position: absolute;
-    z-index: 1;
-    pointer-events: none;
-    width: 101%;
-    height: 100%;
-    top: 0;
-    left: -1%;
-    display: flex;
-    background-color: white;
-    opacity: 0;
-}
+@keyframes wave2 {
+	0% {
+		opacity: 0;
+	}
 
-#blinkbg2 {
-    position: absolute;
-    z-index: 2;
-    pointer-events: none;
-    width: 101%;
-    height: 100%;
-    top: 0;
-    left: -1%;
-    display: flex;
-    background-color: black;
-    opacity: 0;
-}
-
-.sound17 #blinkbg {
-    animation: blink 43s;
-}
-
-.sound18 #blinkbg {
-    animation: none;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
+    10% {
+        opacity: 0.4;
     }
 
-    95% {
+    20% {
+        opacity: 0.8;
+    }
+
+    30% {
+        opacity: 0.4;
+    }
+
+    40% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.8;
+    }
+
+    70% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.9;
+    }
+
+    90% {
         opacity: 0.4;
     }
 
@@ -1175,125 +1300,46 @@ Sounds.
     }
 }
 
-@keyframes blink2 {
-    0% {
-        opacity: 0;
-    }
-
-    40% {
-        opacity: 0.6;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-/* http://angrytools.com/gradient/ */
-#radial {
-    background: -moz-radial-gradient(center, ellipse cover, rgba(82,84,255,0) 15%, rgba(255, 255, 255, 0.3) 100%);
-    position: absolute;
-    z-index: 3;
-    pointer-events: none;
-    width: 101%;
-    height: 100%;
-    top: 0;
-    left: -1%;
-    display: flex;
-    opacity: 0;
-}
-
-.sound19 #radial {
-    opacity: 1;
-    animation: wave2 43s;
-}
-
-.sound20 #radial {
-    opacity: 0;
-    animation: none;
-}
-
-@keyframes wave2 {
+@keyframes wave3 {
 	0% {
 		opacity: 0;
 	}
 
-    5% {
-        opacity: 0.5;
-    }
-
     10% {
-        opacity: 0.3;
-    }
-
-    15% {
-        opacity: 0.5;
+        opacity: 0.2;
     }
 
     20% {
-        opacity: 0.3;
-    }
-
-    25% {
-        opacity: 0.5;
+        opacity: 0.4;
     }
 
     30% {
-        opacity: 0.3;
-    }
-
-    35% {
         opacity: 0.6;
     }
 
     40% {
-        opacity: 0.3;
-    }
-
-    45% {
-        opacity: 0.6;
+        opacity: 0.8;
     }
 
     50% {
-        opacity: 0.3;
-    }
-
-    55% {
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     60% {
-        opacity: 0.3;
-    }
-
-    65% {
-        opacity: 0.8;
+        opacity: 0.6;
     }
 
     70% {
-        opacity: 0.3;
-    }
-
-    75% {
-        opacity: 1;
+        opacity: 0.4;
     }
 
     80% {
-        opacity: 0.3;
-    }
-
-    85% {
-        opacity: 1;
+        opacity: 0.8;
     }
 
     90% {
-        opacity: 0.3;
+        opacity: 0.4;
     }
-
-    95% {
-        opacity: 0.5;
-    }
-
 
     100% {
         opacity: 0;
