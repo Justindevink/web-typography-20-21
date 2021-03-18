@@ -1,100 +1,26 @@
 # Onderbouwing
 
 ## Fonts
-waarom welke fonts, typefaces en weights gebruikt.
+Voor KD6 heb ik ervoor gekozen het font Brenner Sans medium te gebruiken omdat dit een erg neutraal font is, een eigenschap die goed bij KD6 past. Hij moet namelijk zonder vragen te stellen zijn werk neutraal uitvoeren. De medium weight van de font voegt een serieuze eigenschap toe aan het font, die goed past bij de stem en toon van KD6.
+
+Voor de ondervragen heb ik ervoor gekozen het font Brenner Mono regular te gebruiken omdat dit een erg statisch, emotieloos font is. De ondervragen stelt de vragen erg onpersoonlijk en zonder enige emoties of gevoelens. Zodra de ondervraging begint, zijn de vragen zelf in italic maar wanneer de ondervragen de woorden "cells" of "interlinked" zegt, is het font in bold om te benadruken hoe intimiderend de ondervragen dit uitspreekt.
+
+Tijdens de ondervraging worden de font weights dikker, om een goed gevoel van spanning te geven en de opdringerige toon over te brengen.
+
 
 ## Plaatsing
-Letters staan links en rechts omdat dit een intens gevoel geeft van een ondervraging, ook al vind Darice dit minder prettig te volgen. Ik heb er voor gekozen dit toch aan te houden omdat deze film maar 2x een intense ondervraging scene heeft, je hoeft dus niet de hele film lang de ondertiteling (intensief) links en rechts te lezen.
+De ondertiteling staan in deze twee scene's links en rechts omdat dit een intens gevoel geeft van een ondervraging. Ondanks dat Darice heeft aangegegeven dat zij dit minder prettig leesbaar vind, heb ik er toch voor gekozen dit aan te houden aangezien er in de film maar twee keer een intense ondervraging scene plaats vindt, bij wijs van spreke zou Darice dus niet de gehele film op deze manier hoeven volgen.
 
-Tot slot is er meer ruimte voor de woorden "Cells" en "Interlinked" die in beeld komt terwijl de vraag in beeld blijft. Dit geeft meer het effect dat deze woorden echt intens in een ondervraging gesteld worden, alsof Officer KD6 nu meteen antwoord moet geven door het woord "Cells" of "Interlinked" te herhalen. 
+Tot slot is er meer ruimte voor de woorden "Cells" en "Interlinked" die verschijnen terwijl de vraag van de ondervrager in beeld blijft. Dit geeft meer het effect dat deze woorden echt opdringerig en intimiderend in een ondervraging gesteld worden, op de manier waarop KD6 meteen antwoord moet geven door het woord "Cells" of "Interlinked" te herhalen.
+
 
 ## Kleurgebruik
+Ik heb ervoor gekozen alleen de kleur wit te gebruiken voor de ondertiteling omdat ik persoonlijk vind dat kleur in de teksten de veel aandacht eist, terwijl de aandacht eigenlijk naar de beelden van de film zouden moeten gaan.
+
 
 ## Geluidseffecten
-Letters worden steeds moeilijker leesbaar naar mate het witte vlak steeds aanweziger wordt, ik heb hier bewust voor gekozen omdat de hoge piep de stemmen ook moeilijker hoorbaar maken.
+Er worden tijdens de twee scenes drie geluiden vormgegeven, als eerste de alarmen, waarbij het beeld in het tempo van het geluid donkerder wordt zodat de kijker op dat moment alles minder goed kan zien, net als hoe je normaal gesproken alles wat minder goed kan horen zodra er een alarm af gaat.
 
+Het tweede geluid dat wordt vormgegeven is de hoge piep die tijdens de ondervraging langzaam steeds aanweziger wordt. Om dit geluid vorm te geven heb ik ervoor gekozen het beeld langzaam steeds witter te maken, om de kijker een benauwd gevoel te geven. Net als bij de hoge piep, duurt het even voordat dit effect op valt. Naarmate het effect steeds aanweziger wordt, worden de teksten op het scherm steeds moeilijker leesbaar, net als hoe de stemmen moeilijker verstaanbaar worden doordat de pieptoon steeds luider wordt.
 
-
-# Web Typography, 2020/2021
-
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
-
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
-
-Dat kan visueel sterker. 
-
-En dat gaan jullie doen.
-
-## Leerdoelen
-
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
-
-## Oplevering
-
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
-
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
-
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
-
-## Typografische restricties
-
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Tot slot is het derde geluid dat is vorgegeven de futurische geluidsgolven die je hoort in de tweede ondervraging. Ik heb dit dromerige geluid proberen vorm te geven door de randen van het scherm lichter te maken zodat het beeld dof overkomt en het zicht wat minder wordt. De lichte randen bewegen lanzaam en vloeiend over het scherm zoals golven.
