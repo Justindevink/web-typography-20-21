@@ -3,7 +3,7 @@
 ## Fonts
 Voor KD6 heb ik ervoor gekozen het font Brenner Sans medium te gebruiken omdat dit een erg neutraal font is, een eigenschap die goed bij KD6 past. Hij moet namelijk zonder vragen te stellen zijn werk neutraal uitvoeren. De medium weight van de font voegt een serieuze eigenschap toe aan het font, die goed past bij de stem en toon van KD6.
 
-Voor de ondervragen heb ik ervoor gekozen het font Brenner Mono regular te gebruiken omdat dit een erg statisch, emotieloos font is. De ondervragen stelt de vragen erg onpersoonlijk en zonder enige emoties of gevoelens. Zodra de ondervraging begint, zijn de vragen zelf in italic maar wanneer de ondervragen de woorden "cells" of "interlinked" zegt, is het font in bold om te benadruken hoe intimiderend de ondervragen dit uitspreekt.
+Voor de ondervrager heb ik ervoor gekozen het font Brenner Mono regular te gebruiken omdat dit een erg statisch, emotieloos font is. De ondervragen stelt de vragen erg onpersoonlijk en zonder enige emoties of gevoelens. Zodra de ondervraging begint, zijn de vragen zelf in italic maar wanneer de ondervragen de woorden "cells" of "interlinked" zegt, is het font in bold om te benadruken hoe intimiderend de ondervragen dit uitspreekt.
 
 Tijdens de ondervraging worden de font weights dikker, om een goed gevoel van spanning te geven en de opdringerige toon over te brengen.
 
